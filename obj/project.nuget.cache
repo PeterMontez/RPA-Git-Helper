@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xngEzrPWRwD3pYhTEZiaLsYwyXxy7c+Fh/8Hfw+tKJ53Sc2MZjlj9oSllBos7vE0Tf2AgncH3sNUtSlSeugtYQ==",
+  "dgSpecHash": "gHOs789eHc+91Kdn9mUCS1vUVtaeb9USt0rHEv49LIa45sRHiyrk72Ei1OlVVo3KfhR8Pxs+OlkjiCN9RDQ2JA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\disrct\\Desktop\\GitManager\\GitManager.csproj",
+  "projectFilePath": "C:\\Users\\disrct\\Desktop\\RPA-Git-Helper\\GitManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\disrct\\.nuget\\packages\\markdig.signed\\0.30.4\\markdig.signed.0.30.4.nupkg.sha512",
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.applicationinsights\\2.21.0\\microsoft.applicationinsights.2.21.0.nupkg.sha512",

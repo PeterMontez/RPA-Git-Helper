@@ -6261,11 +6261,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\GitManager\\GitManager.csproj",
+      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\RPA-Git-Helper\\GitManager.csproj",
       "projectName": "GitManager",
-      "projectPath": "C:\\Users\\disrct\\Desktop\\GitManager\\GitManager.csproj",
+      "projectPath": "C:\\Users\\disrct\\Desktop\\RPA-Git-Helper\\GitManager.csproj",
       "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\disrct\\Desktop\\GitManager\\obj\\",
+      "outputPath": "C:\\Users\\disrct\\Desktop\\RPA-Git-Helper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",

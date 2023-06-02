@@ -10,15 +10,25 @@ public static class UI
         return Convert.ToByte(cki.Key);
     }
 
-    public static void MainMenu()
+    public static void MainMenuPrint()
     {
         System.Console.WriteLine
         (""" 
-        ESCOLHA A OPÇÃO 
-
-        
-
+               CHOOSE AN ACTION
+        ------------------------------
+        1 - REGISTER FOLDER
+        2 - REMOVE FOLDER
+        3 - UPDATE
+        4 - LOAD TO DATABASE
+        5 - PULL EVERYTHING
+        ------------------------------
         """);
+    }
+
+    public static void MainMenu()
+    {
+        MainMenuPrint();
+        ReadKey();
     }
 
 }
