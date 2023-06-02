@@ -1,8 +1,8 @@
 USE MASTER
 GO
 IF exists(SELECT  *
-FROM sys.databases
-WHERE NAME = 'Repositories')
+    FROM sys.databases
+    WHERE NAME = 'Repositories')
 DROP DATABASE Repositories
 
 GO

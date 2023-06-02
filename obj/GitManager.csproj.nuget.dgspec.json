@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\disrct\\Desktop\\RPA-Git-Helper\\GitManager.csproj": {}
+    "C:\\Users\\disrct\\Desktop\\C# avançado\\Desafio\\RPA-Git-Helper\\GitManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\disrct\\Desktop\\RPA-Git-Helper\\GitManager.csproj": {
+    "C:\\Users\\disrct\\Desktop\\C# avançado\\Desafio\\RPA-Git-Helper\\GitManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\RPA-Git-Helper\\GitManager.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\C# avançado\\Desafio\\RPA-Git-Helper\\GitManager.csproj",
         "projectName": "GitManager",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\RPA-Git-Helper\\GitManager.csproj",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\C# avançado\\Desafio\\RPA-Git-Helper\\GitManager.csproj",
         "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\RPA-Git-Helper\\obj\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\C# avançado\\Desafio\\RPA-Git-Helper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,16 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.PowerShell.SDK": {
               "target": "Package",
               "version": "[7.3.4, )"
@@ -65,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
