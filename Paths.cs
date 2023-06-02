@@ -1,27 +1,26 @@
-using System.Collections.Generic;
+    using System.Collections.Generic;
 
 public static class Paths
 {
-    public static List<string> paths;
-    public static List<string> repos;
+    private static List<string> paths;
+    private static List<string> repos;
 
     public static List<string> GetPaths() => paths;
     public static List<string> GetRepos() => repos;
 
-    public static void AddPath(string path)
-    {
+    public static void AddPath(string path) => paths.Add(path);
 
+    public static void AddRepo(string repo) => repos.Add(repo);
+    public static void RemovePath()
+    {
+        int count = 0;
+        System.Console.WriteLine("Wich folder do you want to remove?\n");
+        foreach (var item in paths)
+            System.Console.WriteLine($"{count++} - {item} {((count == paths.Count())? "\n> " : "")}");
+
+        byte choice = UI.ReadKey();
     }
 
-    public static void RemovePath(string path)
-    {
-
-    }
-
-    public static void AddRepo(string repo)
-    {
-
-    }
 
     public static void RemoveRepo(string repo)
     {
