@@ -4,6 +4,8 @@ public static class Paths
 {
     private static List<string> paths;
     private static List<string> repos;
+    private static List<string> paths;
+    private static List<string> repos;
 
     public static List<string> GetPaths() => paths;
     public static List<string> GetRepos() => repos;
