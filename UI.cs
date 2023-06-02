@@ -1,8 +1,5 @@
-
 public static class UI
 {
-    public static string path;
-
     public static byte ReadKey()
     {
         ConsoleKeyInfo cki;
