@@ -1,12 +1,12 @@
 public class FolderManager
 {
-    public void Add()
+    public void Add(string path)
     {
-
+        Paths.AddPath(path);
     }
 
-    public void Remove()
+    public void Remove(string path)
     {
-        
+        Paths.RemovePath(path);
     }
 }
