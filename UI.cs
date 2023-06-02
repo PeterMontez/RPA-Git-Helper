@@ -25,7 +25,37 @@ public static class UI
     public static void MainMenu()
     {
         MainMenuPrint();
-        ReadKey();
+        Act(ReadKey());
+    }
+
+    public static void Act(byte choice)
+    {
+        FolderManager folders = new FolderManager();
+        Search updater = new Search();
+
+        switch (choice)
+        {
+            case 1:
+                System.Console.WriteLine("What is the desired PATH to be added?");
+                folders.Add();
+                break;
+            case 2:
+                System.Console.WriteLine("What is the desired PATH to be removed?");
+                folders.Remove();
+                break;
+            case 3:
+                updater.Run();
+                break;
+            case 4:
+                //DATABASE CODE HERE
+                break;
+            case 5:
+                //CODE PULLER HERE
+                break;
+            default:
+                System.Console.WriteLine("INVALID OPTION!");
+                break;
+        }
     }
 
 }

@@ -1,11 +1,15 @@
 public class FolderManager
 {
-    public void Add(string path)
+    public void Add()
     {
+        
+        ConsoleKeyInfo cki;
+        cki = Console.ReadKey();
+        Convert.ToByte(cki.Key);
         Paths.AddPath(path);
     }
 
-    public void Remove(string path)
+    public void Remove()
     {
         Paths.RemovePath(path);
     }
