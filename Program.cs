@@ -2,7 +2,6 @@
 using System.IO;
 
 
-Paths.AddPath("Primeira");
 Paths.AddPath("segunda");
 Paths.AddPath("terceira");
 
