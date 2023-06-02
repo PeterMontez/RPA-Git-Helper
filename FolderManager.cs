@@ -2,15 +2,11 @@ public class FolderManager
 {
     public void Add()
     {
-        
-        ConsoleKeyInfo cki;
-        cki = Console.ReadKey();
-        Convert.ToByte(cki.Key);
-        Paths.AddPath(path);
+        Paths.AddPath(Console.ReadLine());
     }
 
     public void Remove()
     {
-        Paths.RemovePath(path);
+        
     }
 }
