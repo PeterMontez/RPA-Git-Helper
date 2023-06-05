@@ -7,11 +7,25 @@ public class Search
     {
         foreach (var path in Paths.GetPaths())
         {
-            var ls = Directory.EnumerateDirectories(path);
+            FolderInspector(path);
+
+            //;
 
         }
     }
 
+    private void FolderInspector(string path)
+    {
+        var ls = Directory.EnumerateDirectories(path);
+        foreach (var dir in path)
+        {
+            if (dir.ToString().Contains(".git"))
+            {
+                Paths.AddRepo(dir.ToString());
+                break;
+            }
+        }
+    }
 
 }
 
